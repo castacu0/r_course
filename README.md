@@ -1,1 +1,1 @@
-# r_course
+# R Course with R Studio 👩‍🔬
