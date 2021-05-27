@@ -11,7 +11,7 @@ example(histogram) #show me an example
 
 
 #---Ex3
-vector = c(9,5,1,8,4,2) #enter data manually
+vector = c(9,5,1,8,4,2) #Create a Vector, enter data manually
 vector
 
 vector_str = c("Paul", "MuadDib", "Jessica", "Leto", "Ghanima")
@@ -117,4 +117,17 @@ quantile(var_1, probs=seq(0, 1, .2), na.rm=T) #from 0 to 1 in .2
      #  0    2    6   12   18   43 
 
 
+#---Ex16
+firstTwentyNums = 1:20
+sum(firstTwentyNums)    #[1] 210
 
+
+#---Ex17
+dice = 1:6
+many_rolls = sample(dice, 100, replace=TRUE) 
+     #sample.int(length(x), size, replace, prob) :
+six_frequency = sum(many_rolls == 6)
+six_frequency / 100
+
+
+#---Ex18
